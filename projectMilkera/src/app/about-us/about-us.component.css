@@ -1,0 +1,74 @@
+/* Reset default margin and padding for body and other elements */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a full-height parallax container */
+.parallax {
+  background-image: /*url("C:\Users\LENOVO\Desktop\Joenish\PROJECTS\milkEra\PureDairy\src\assets\images\cowAbout.jpg");  Replace 'your-image.jpg' with your image file */ url=(
+    "C:\Users\rajpu\Desktop\Milkera\projectMilkera\src\assets\images\cowAbout.jpg"
+  );
+  background-size: cover;
+  background-attachment: fixed; /* This creates the parallax effect */
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.customHeight {
+  height: 350px !important;
+}
+/* Style the content within the parallax container */
+.parallax-content {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Add a semi-transparent background for text readability */
+  padding: 20px;
+}
+
+/* Style the content outside of the parallax container */
+.content {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.customCard {
+  width: 50%;
+  height: 175px;
+}
+.customCardMargins {
+  margin-left: -182px !important;
+  margin-bottom: 18px !important;
+}
+.card1 {
+  background-color: #eddd5e;
+  align-items: center;
+  justify-content: center;
+  right: -45px;
+  bottom: -45px;
+  position: relative;
+  z-index: 1;
+}
+.customAbout {
+  text-align: center;
+}
+.parallax {
+  background-image: url("C:\Users\rajpu\Desktop\Milkera\projectMilkera\src\assets\images\cowAbout.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}

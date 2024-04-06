@@ -1,0 +1,28 @@
+.container{
+    margin-top: 70px;
+}
+.productImg{
+    height: 180px!important;
+}
+/* Add spacing between rows */
+.cart-item {
+    margin-bottom: 6%;
+  }
+  .customClear{
+    margin-right: 10px;
+  }
+  
+  /* Ensure all columns are visible */
+  .table th,
+  .table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Adjust the max-width as needed */
+  }
+  .qntBtn {
+    border: none;
+  
+    border-radius: 10px;
+  }
+  
